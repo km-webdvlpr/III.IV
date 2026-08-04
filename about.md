@@ -20,10 +20,9 @@ page_class: page-about
     <a class="sidebar-link" href="#case-files">Case files</a>
     <a class="sidebar-link" href="#process">How I work</a>
     <a class="sidebar-link" href="#background">Background</a>
-    <a class="sidebar-link" href="#credentials">Education + CV</a>
+    <a class="sidebar-link" href="#credentials">Education</a>
     <hr class="sidebar-divider">
     <a class="sidebar-link" href="{{ '/projects/' | relative_url }}">View Projects</a>
-    <a class="sidebar-link" href="{{ '/assets/files/Kabelo_Makua_CV_04.pdf' | relative_url }}" target="_blank" rel="noreferrer">View CV</a>
     <a class="sidebar-link" href="mailto:{{ site.contact_email }}">Email me</a>
     <hr class="sidebar-divider">
     <div class="sidebar-meta">
@@ -51,7 +50,7 @@ page_class: page-about
           My work often sits between analytics, product thinking, and commercial analysis. I do my best work when analysis helps a team understand what is happening, why it matters, and what to do next.
         </p>
         <p class="profile-text">
-          My CV covers the formal timeline, but this portfolio shows more than that. I built it to reflect growth, range, and the way my thinking has developed across different kinds of work. My career has not followed one simple straight line, and this body of work is a better reflection of how I learn, adapt, and build toward the kind of analyst I&apos;m becoming.
+          This portfolio reflects my growth, range, and the way my thinking has developed across different kinds of work. My career has not followed one simple straight line, and this body of work shows how I learn, adapt, and build toward the kind of analyst I&apos;m becoming.
         </p>
         <div class="profile-stats">
           <div class="stat-cell">
@@ -152,7 +151,7 @@ page_class: page-about
     </section>
 
     <section class="section" id="credentials">
-      <div class="section-tag reveal">// education + cv</div>
+      <div class="section-tag reveal">// education</div>
       <div class="cred-block reveal">
         <div class="cred-row">
           <div class="cred-left">
@@ -181,21 +180,11 @@ page_class: page-about
           </div>
           <span class="cred-link" style="cursor:default;">IN PROGRESS</span>
         </div>
-        <div class="cred-row">
-          <div class="cred-left">
-            <div class="cred-year">CV</div>
-            <div class="cred-title">Curriculum Vitae</div>
-            <div class="cred-org">Full professional background and role history</div>
-            <p>For formal experience history, role detail, and full chronology.</p>
-          </div>
-          <a href="{{ '/assets/files/Kabelo_Makua_CV_04.pdf' | relative_url }}" class="cred-link" target="_blank" rel="noreferrer">View CV</a>
-        </div>
       </div>
     </section>
 
     <div class="about-cta reveal">
       <a href="{{ '/projects/' | relative_url }}" class="btn-solid">View Projects</a>
-      <a href="{{ '/assets/files/Kabelo_Makua_CV_04.pdf' | relative_url }}" class="btn-outline" target="_blank" rel="noreferrer">View CV</a>
       <a href="mailto:{{ site.contact_email }}" class="btn-outline">Get in Touch</a>
     </div>
   </main>

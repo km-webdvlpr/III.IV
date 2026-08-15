@@ -8,11 +8,11 @@ roleFocus: "Fintech Analytics | Product Intelligence"
 projectShows:
   - "Adoption ladder analysis"
   - "Cross-sell and retention interpretation"
-  - "Trust-failure impact modeling"
+  - "Trust-failure impact modelling"
 snapshot:
   problem: "Customer growth alone does not explain whether digital banking users are becoming retained, multi-product customers."
-  focus: "I modeled a Capitec-shaped consumer banking dataset across activation, transactions, support, product attach, and retention to read where the ecosystem story strengthens or breaks."
-  outcome: "The case turns consumer fintech behavior into a clearer view of adoption depth, cross-sell opportunity, and trust risk."
+  focus: "I modelled a Capitec-shaped consumer banking dataset across activation, transactions, support, product attach, and retention to read where the ecosystem story strengthens or breaks."
+  outcome: "The case turns consumer fintech behaviour into a clearer view of adoption depth, cross-sell opportunity, and trust risk."
 demo: "https://km-webdvlpr.github.io/capitec-product-intelligence/"
 demoLabel: "View project walkthrough"
 repo: "https://github.com/km-webdvlpr/capitec-product-intelligence"
@@ -29,7 +29,7 @@ Fintech product analytics case study focused on digital activation, ecosystem de
 High customer numbers do not automatically mean strong ecosystem adoption. The more useful question is whether digitally active users are becoming primary-banked, multi-product, and durable over time. That is the layer this case is designed to surface.
 
 ## Problem
-The core problem is not account growth. It is the lack of a joined-up view across digital activity, transaction behavior, product attach, support pressure, and retention. Without that, teams can push cross-sell too early, miss trust breakdowns, and overestimate how many customers are actually moving into deeper ecosystem use.
+The core problem is not account growth. It is the lack of a joined-up view across digital activity, transaction behaviour, product attach, support pressure, and retention. Without that, teams can push cross-sell too early, miss trust breakdowns, and overestimate how many customers are actually moving into deeper ecosystem use.
 
 ## Data / Signals
 ### Analyst Objective
@@ -46,7 +46,7 @@ Build a fintech intelligence layer that helps teams:
 - Leadership teams reviewing whether ecosystem growth is durable or shallow.
 
 ### Key Questions
-- How many users move from basic account ownership into digital and primary-banked behavior?
+- How many users move from basic account ownership into digital and primary-banked behaviour?
 - Which non-core products are the easiest next attach for active customers?
 - How strongly does retention improve as product depth increases?
 - When transaction failure repeats, how much more vulnerable is the next month?
@@ -58,7 +58,7 @@ Build a fintech intelligence layer that helps teams:
 - Trust friction: failed transaction exposure, support-contact rate, next-month churn gap.
 
 ## Insight
-- The modeled ladder moves 15,000 opened accounts into 9,791 digitally active users, 8,988 digitally active primary-banked users, and 2,035 deep ecosystem users, or 13.6% of the full user base.
+- The modelled ladder moves 15 000 opened accounts into 9 791 digitally active users, 8 988 digitally active primary-banked users, and 2 035 deep ecosystem users, or 13.6% of the full user base.
 - `value_services` is the easiest non-core attach product among primary-banked users at 54.4%, ahead of savings at 38.5%.
 - Deep ecosystem users retain at 63.9% over 90 days versus 22.3% for core-only users.
 - Repeat failure months raise next-month churn from 32.5% to 41.5% and lift support-contact rate from 4.7% to 32.7%.
@@ -82,7 +82,7 @@ The case demonstrates how consumer fintech analytics can move beyond usage count
 ### Key Visuals
 <div class="report-figure">
   <img src="../../projects/capitec-product-intelligence/adoption-ladder.png" alt="Capitec adoption ladder" />
-  <p class="report-caption">The modeled adoption ladder shows where users keep moving and where ecosystem depth starts to narrow sharply.</p>
+  <p class="report-caption">The modelled adoption ladder shows where users keep moving and where ecosystem depth starts to narrow sharply.</p>
 </div>
 
 <div class="report-figure">
@@ -92,7 +92,7 @@ The case demonstrates how consumer fintech analytics can move beyond usage count
 
 <div class="report-figure">
   <img src="../../projects/capitec-product-intelligence/retention-by-depth.png" alt="Capitec retention by product depth" />
-  <p class="report-caption">Retention rises materially as users move from core-only behavior into broader ecosystem use.</p>
+  <p class="report-caption">Retention rises materially as users move from core-only behaviour into broader ecosystem use.</p>
 </div>
 
 <div class="report-figure">
@@ -101,7 +101,7 @@ The case demonstrates how consumer fintech analytics can move beyond usage count
 </div>
 
 ### Recommendations
-- Prioritize savings and value-services journeys for digitally active primary-banked users.
+- Prioritise savings and value-services journeys for digitally active primary-banked users.
 - Track product depth as a watchpoint for whether customer value is becoming more durable.
 - Flag repeated transaction failure into a weekly product health review.
 - Treat next-month drop-off after repeat failure as a product-health metric, not only a CX metric.

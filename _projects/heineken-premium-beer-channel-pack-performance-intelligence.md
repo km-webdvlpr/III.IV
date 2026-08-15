@@ -81,7 +81,7 @@ These metrics mattered because the purpose was to compare growth quality inside 
 
 ## Interpretation Notes
 - This is a synthetic case study built to test pack and channel decision logic, not a claim about live Heineken trading data.
-- Gauteng carries most of the modeled volume by design, so it is best treated as the main comparison lens rather than a discovered market truth.
+- Gauteng carries most of the modelled volume by design, so it is best treated as the main comparison lens rather than a discovered market truth.
 - The Gauteng opportunity score is a weighted ranking built from repeat purchase, average margin, and volume share.
 
 ## Next Steps

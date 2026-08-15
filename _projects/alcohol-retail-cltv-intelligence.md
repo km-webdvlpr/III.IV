@@ -41,7 +41,7 @@ Build a customer value framework that could support retention planning, improve 
 - How could model outputs be translated into campaign-ready actions?
 
 ## Workflow Thinking
-- Customer transactions and loyalty behavior feed into value scoring and segmentation.
+- Customer transactions and loyalty behaviour feed into value scoring and segmentation.
 - Segments then inform retention actions, promotional choices, and weekly campaign planning.
 - The analysis only becomes useful when model scores are translated into simple operating decisions.
 
@@ -78,7 +78,7 @@ These metrics mattered because the goal was not just to score customers, but to 
 ## Next Steps
 - Track campaign results by segment to see which actions are actually working.
 - Review whether product affinity should play a bigger role in retention offers.
-- Revisit the segment thresholds over time as customer behavior changes.
+- Revisit the segment thresholds over time as customer behaviour changes.
 
 ## Links
 - Repository and project notes: [alcohol-retail-cltv-intelligence](https://github.com/kabelo-analytics/alcohol-retail-cltv-intelligence)

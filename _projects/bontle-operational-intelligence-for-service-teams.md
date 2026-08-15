@@ -40,7 +40,7 @@ Design an operational workflow model that supports day-to-day execution, gives t
 ## Key Questions
 - Where in the workflow were jobs slowing down or being reassigned?
 - Which exceptions needed earlier operational intervention?
-- How should throughput, quality, and utilization be measured in a way teams could trust?
+- How should throughput, quality, and utilisation be measured in a way teams could trust?
 - How could state changes be converted into management reporting and review signals?
 
 ## Impact Snapshot
@@ -78,7 +78,7 @@ The strongest value here is not technical complexity on its own. It is that mess
 - Duration variance across workflow stages.
 *Business Question Answered: Where is delivery quality breaking down?*
 
-### Utilization
+### Utilisation
 - Workload distribution by team and branch.
 - Capacity pressure by operating unit.
 - Queue concentration risk.
@@ -97,7 +97,7 @@ KPI trust is supported through record versioning, event-level audit trails, reco
 ## Deliverables
 - Operational problem framing
 - Workflow and state-transition design
-- KPI definition across throughput, quality, utilization, and revenue
+- KPI definition across throughput, quality, utilisation, and revenue
 - Management reporting structure for service performance reviews
 - Audit-ready event and reconciliation logic
 
@@ -108,7 +108,7 @@ KPI trust is supported through record versioning, event-level audit trails, reco
 
 ## Method / Limits
 - This case study is strongest as an operational design and control framework, not as a published before-versus-after performance study.
-- The page demonstrates workflow logic, KPI modeling, and reporting structure more clearly than it demonstrates measured adoption outcomes.
+- The page demonstrates workflow logic, KPI modelling, and reporting structure more clearly than it demonstrates measured adoption outcomes.
 - Where the write-up refers to management usefulness, that should be read as the intended operating benefit of the design.
 
 ## Architecture & Delivery
@@ -123,7 +123,7 @@ KPI trust is supported through record versioning, event-level audit trails, reco
 
 ## What This Demonstrates
 - Product analytics thinking grounded in operational workflow behaviour.
-- KPI modeling through state transitions.
+- KPI modelling through state transitions.
 - Operational data architecture with traceability.
 - Reliability and auditability in delivery control.
 - Executive framing for decision review.
@@ -143,7 +143,7 @@ KPI trust is supported through record versioning, event-level audit trails, reco
   <a href="../../artifacts/bontle/trd">Open TRD summary</a>
 </div>
 
-## Appendix: Reconstructed Analyst Artifacts
+## Appendix: Reconstructed Analyst Artefacts
 These short extracts show the kind of documentation that would support the workflow and reporting design in a real delivery setting.
 
 ### Business Requirements Summary
@@ -163,11 +163,11 @@ These short extracts show the kind of documentation that would support the workf
 ### Technical Requirements Summary
 - State transition logic enforced on the server.
 - Event logging for status changes, timestamps, and ownership updates.
-- Data model that supports throughput, backlog, exception, and utilization reporting.
+- Data model that supports throughput, backlog, exception, and utilisation reporting.
 - Export capability for BI consumption.
 - Concurrency protection and idempotent write handling for operational reliability.
 
-## Artifacts
+## Artefacts
 <div class="artifact-actions">
   <a href="../../downloads/Bontle-Operational-Intelligence-for-Multi-Location-Service-Teams_v1.pptx.ppsm" download>Download the deck (PPSM)</a>
   <a href="https://bontle-web-app.onrender.com/book" target="_blank" rel="noreferrer">View Live Demo</a>

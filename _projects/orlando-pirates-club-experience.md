@@ -24,7 +24,7 @@ Orlando Pirates Club Experience is a personal sports-analytics build that presen
 This sits in my portfolio as a football-focused analysis piece that blends public-record performance data, visual storytelling, and front-end delivery outside of my core commercial case studies.
 
 ## Method / Limits
-- The page is built as an interpretive sports analysis using public match records and summarized historical performance patterns.
+- The page is built as an interpretive sports analysis using public match records and summarised historical performance patterns.
 - It is strongest as a long-horizon comparative view of coaching eras and trend movement, not as an official club reporting source.
 - Where conclusions move from the numbers to broader interpretation, the live page now keeps those claims more conservative.
 

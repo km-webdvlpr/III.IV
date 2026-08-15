@@ -21,7 +21,7 @@ demoLabel: "Open PDF report"
 Telco RSA Africa Market Insights 2025 is a market-intelligence case study focused on telecom shifts across South Africa and the broader African context.
 
 ## Business Context
-Telecom strategy decisions require clear interpretation of market movement, not only raw indicators. Fragmented trend signals can delay planning and reduce confidence in prioritization.
+Telecom strategy decisions require clear interpretation of market movement, not only raw indicators. Fragmented trend signals can delay planning and reduce confidence in prioritisation.
 
 ## Problem Statement
 There was a need for a concise report that translates telecom market signals into practical strategic insight for leadership review.

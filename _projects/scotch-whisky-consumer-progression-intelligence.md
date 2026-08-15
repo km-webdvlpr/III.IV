@@ -52,8 +52,8 @@ Build a product intelligence case study that reads progression through product r
 - The dataset should stay slightly messy so the progression story feels observed rather than fabricated.
 
 ## Approach
-- Designed a synthetic Scotch retail dataset with 3,200 observations across eight fixed expressions.
-- Modeled product, shelf, display, promo, gifting, and buyer-stage signals with imperfect correlations.
+- Designed a synthetic Scotch retail dataset with 3 200 observations across eight fixed expressions.
+- Modelled product, shelf, display, promo, gifting, and buyer-stage signals with imperfect correlations.
 - Exported a compact set of visuals and summary tables focused on progression, friction, loyalty, and stalling points.
 - Built a notebook and a portfolio-ready walkthrough that keeps the tone commercial and human.
 
@@ -73,7 +73,7 @@ Build a product intelligence case study that reads progression through product r
 - Embedded case walkthrough inside III.IV
 
 ## Results
-- The build lands at 3,200 retail observations.
+- The build lands at 3 200 retail observations.
 - Entry and core bottles still carry most of the category traffic.
 - The gateway score ranks Johnnie Walker Black Label first.
 - The destination score ranks Lagavulin 16 first.

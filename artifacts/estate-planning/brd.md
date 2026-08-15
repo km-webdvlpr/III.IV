@@ -45,13 +45,13 @@ The current state is characterised by:
 - low confidence in completing estate planning without legal guidance
 - unclear user understanding of what information is required
 - process steps that feel heavy or intimidating
-- weak fit between the user journey and mobile-first behavior
+- weak fit between the user journey and mobile-first behaviour
 - a delivery model that can be expensive for users if priced as a standalone service
 
 This means the market problem is partly educational, but more importantly operational. The service needs a simpler path to completion, not just better awareness.
 
 ## Proposed Business Response
-The proposed response was to turn will creation into a guided service flow delivered through WhatsApp. The reason for this channel choice was practical: it reduces entry friction, matches familiar user behavior, and supports step-by-step structured interaction.
+The proposed response was to turn will creation into a guided service flow delivered through WhatsApp. The reason for this channel choice was practical: it reduces entry friction, matches familiar user behaviour, and supports step-by-step structured interaction.
 
 The concept was not positioned as a replacement for all legal processes. It was positioned as a simplified and more accessible entry point that could capture structured information, validate key inputs, and produce a usable document output.
 
@@ -96,4 +96,4 @@ The concept was not positioned as a replacement for all legal processes. It was 
 - user testing is needed to confirm which questions create the most hesitation or drop-off
 
 ## Recommendation
-The concept should move forward as a guided, testable service model rather than as a broad legal platform. The next phase should validate user behavior, identify the highest-friction steps, and confirm whether partner distribution can support rollout in a practical way.
+The concept should move forward as a guided, testable service model rather than as a broad legal platform. The next phase should validate user behaviour, identify the highest-friction steps, and confirm whether partner distribution can support rollout in a practical way.

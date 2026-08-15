@@ -1,13 +1,13 @@
 ---
 title: "RSA Music Culture Insights"
 date: 2026-03-19
-summary: "Creative cultural-intelligence piece exploring South African music patterns through an interactive narrative experience, with proxy data and modeled signals used transparently."
+summary: "Creative cultural-intelligence piece exploring South African music patterns through an interactive narrative experience, with proxy data and modelled signals used transparently."
 tags: ["Personal Project", "Data Storytelling", "Music Culture", "HTML"]
 featured: false
 roleFocus: "Creative / Personal Work"
 projectShows:
   - "Cultural storytelling"
-  - "Narrative visualization"
+  - "Narrative visualisation"
   - "Interactive design"
 snapshot:
   problem: "Cultural music commentary is often scattered across trends, scenes, and platforms, which makes the broader pattern harder to follow."
@@ -18,13 +18,13 @@ demoLabel: "Open interactive project"
 ---
 
 ## Overview
-RSA Music Culture Insights is a personal creative cultural-intelligence piece that explores South African music behavior through interactive storytelling.
+RSA Music Culture Insights is a personal creative cultural-intelligence piece that explores South African music behaviour through interactive storytelling.
 
 ## Context
 This project was intentionally built as personal creative work to demonstrate narrative craft, visual communication, and cultural interpretation, separate from the more decision-oriented business case studies in the portfolio.
 
 ## Method / Limits
-- This page uses public proxies, modeled estimates, and interpretive framing rather than a clean downloadable dataset.
+- This page uses public proxies, modelled estimates, and interpretive framing rather than a clean downloadable dataset.
 - Several figures are directional by design and should be read as cultural signals, not official platform reporting.
 - Where categories overlap, the live project now labels them as overlapping signals rather than mutually exclusive distributions.
 

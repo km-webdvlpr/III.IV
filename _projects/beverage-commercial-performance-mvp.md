@@ -54,7 +54,7 @@ Create a reporting and KPI layer that standardised core commercial definitions, 
 These metrics mattered because they supported trading decisions, budget discussions, and promotion reviews from the same base.
 
 ## Approach
-- Modeled channel and SKU dimensions with dbt and documented test coverage.
+- Modelled channel and SKU dimensions with dbt and documented test coverage.
 - Unified volume, value, and promo tables in a single semantic layer.
 - Built an MVP dashboard with period-over-period change, margin bridge, and geo splits.
 - Added decision checklists for account managers directly in the dashboard notes.
@@ -88,7 +88,7 @@ These metrics mattered because they supported trading decisions, budget discussi
   <a href="../../artifacts/beverage-commercial-performance-mvp/trd">Open TRD summary</a>
 </div>
 
-## Appendix: Reconstructed Analyst Artifacts
+## Appendix: Reconstructed Analyst Artefacts
 These extracts are included to show the requirements thinking behind the reporting layer.
 
 ### Business Requirements Summary

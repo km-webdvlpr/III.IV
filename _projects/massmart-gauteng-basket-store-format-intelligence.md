@@ -60,7 +60,7 @@ These metrics mattered because the project is designed as a synthetic retail dec
 
 ## Approach
 - Designed a synthetic basket-level retail dataset with four basket archetypes: Quick Trip, Stock-Up, Liquor-Led, and Mixed Basket.
-- Modeled category value across groceries, liquor, and general merchandise so basket totals behave realistically.
+- Modelled category value across groceries, liquor, and general merchandise so basket totals behave realistically.
 - Built ranked outputs for basket types, category combinations, store formats, and promotion impact.
 - Added a decision layer that shows what the model suggests reviewing first.
 

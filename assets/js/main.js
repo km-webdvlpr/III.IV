@@ -303,6 +303,171 @@
     setFilter(initialFilter, { skipHistory: true });
   }
 
+  function initHeroOrb() {
+    var canvas = document.querySelector('[data-hero-orb]');
+    if (!canvas || typeof canvas.getContext !== 'function') return;
+
+    var ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    var POINTS = 220;
+    var TILT = 0.4;
+    var golden = Math.PI * (3 - Math.sqrt(5));
+    var points = [];
+
+    for (var i = 0; i < POINTS; i += 1) {
+      var y = 1 - (i / (POINTS - 1)) * 2;
+      var radius = Math.sqrt(Math.max(0, 1 - y * y));
+      var angle = golden * i;
+      points.push({
+        x: Math.cos(angle) * radius,
+        y: y,
+        z: Math.sin(angle) * radius,
+        node: i % 12 === 0
+      });
+    }
+
+    var colors = { dim: '#1e5c3e', bright: '#52d68a' };
+
+    function readColors() {
+      try {
+        var styles = window.getComputedStyle(body);
+        var dim = styles.getPropertyValue('--green-dim').trim();
+        var bright = styles.getPropertyValue('--green-bright').trim();
+        if (dim) colors.dim = dim;
+        if (bright) colors.bright = bright;
+      } catch (error) {
+        // Keep defaults.
+      }
+    }
+
+    var dpr = 1;
+
+    function resize() {
+      var rect = canvas.getBoundingClientRect();
+      if (!rect.width) return;
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.round(rect.width * dpr);
+      canvas.height = Math.round((rect.height || rect.width) * dpr);
+    }
+
+    var rotation = 0;
+    var running = false;
+    var inView = true;
+    var frameId = null;
+
+    function draw(time) {
+      if (!canvas.width) resize();
+
+      var cx = canvas.width / 2;
+      var cy = canvas.height / 2;
+      var sphereRadius = Math.min(cx, cy) * 0.82;
+      var cosT = Math.cos(TILT);
+      var sinT = Math.sin(TILT);
+      var cosR = Math.cos(rotation);
+      var sinR = Math.sin(rotation);
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (var i = 0; i < points.length; i += 1) {
+        var p = points[i];
+        var x = p.x * cosR + p.z * sinR;
+        var z = p.z * cosR - p.x * sinR;
+        var py3 = p.y * cosT - z * sinT;
+        z = p.y * sinT + z * cosT;
+
+        var depth = (z + 1) / 2;
+        var scale = 2.2 / (2.2 - z * 0.9);
+        var px = cx + x * sphereRadius * scale;
+        var py = cy + py3 * sphereRadius * scale;
+
+        var alpha = 0.12 + depth * 0.55;
+        var size = (0.9 + depth * 1.3) * dpr;
+
+        if (p.node) {
+          var flicker = 0.5 + 0.5 * Math.sin(time * 0.0011 + i);
+          alpha = Math.min(1, alpha + 0.25 * flicker);
+          size += 0.7 * dpr * flicker;
+          ctx.fillStyle = colors.bright;
+        } else {
+          ctx.fillStyle = colors.dim;
+        }
+
+        ctx.globalAlpha = alpha;
+        ctx.beginPath();
+        ctx.arc(px, py, size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      ctx.globalAlpha = 1;
+    }
+
+    function loop(time) {
+      frameId = null;
+      if (!running) return;
+      rotation += 0.0024;
+      draw(time || 0);
+      frameId = window.requestAnimationFrame(loop);
+    }
+
+    function start() {
+      if (running || prefersReducedMotion()) return;
+      running = true;
+      if (frameId === null) frameId = window.requestAnimationFrame(loop);
+    }
+
+    function stop() {
+      running = false;
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+        frameId = null;
+      }
+    }
+
+    readColors();
+    resize();
+
+    if (prefersReducedMotion()) {
+      draw(0);
+    } else {
+      start();
+    }
+
+    window.addEventListener('resize', function () {
+      resize();
+      if (!running) draw(0);
+    });
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) {
+        stop();
+      } else if (inView) {
+        start();
+      }
+    });
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        forEachNode(entries, function (entry) {
+          inView = entry.isIntersecting;
+          if (inView && !document.hidden) {
+            start();
+          } else {
+            stop();
+          }
+        });
+      }, { threshold: 0.05 });
+      observer.observe(canvas);
+    }
+
+    forEachNode(document.querySelectorAll('[data-mode-toggle]'), function (button) {
+      button.addEventListener('click', function () {
+        readColors();
+        if (!running) draw(0);
+      });
+    });
+  }
+
   function initCountUp() {
     var nodes = document.querySelectorAll('[data-count-up]');
     if (!nodes.length || !('IntersectionObserver' in window)) return;
@@ -493,4 +658,5 @@
   runSafely('project navigator init', initProjectNavigator);
   runSafely('count-up init', initCountUp);
   runSafely('read progress init', initReadProgress);
+  runSafely('hero orb init', initHeroOrb);
 })();

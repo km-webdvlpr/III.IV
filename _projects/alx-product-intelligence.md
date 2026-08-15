@@ -11,7 +11,7 @@ projectShows:
   - "Assignment and device risk signals"
 snapshot:
   problem: "Weekly activity alone does not show where a structured cohort programme starts losing learner momentum."
-  focus: "I modeled an ALX-shaped data science programme across cohorts, weekly lesson progression, assignments, and dropout flags to isolate the pressure points that matter most."
+  focus: "I modelled an ALX-shaped data science programme across cohorts, weekly lesson progression, assignments, and dropout flags to isolate the pressure points that matter most."
   outcome: "The case turns learner activity into a practical product and programme intelligence layer for retention, completion, and intervention planning."
 demo: "https://km-webdvlpr.github.io/alx-product-intelligence/"
 demoLabel: "View project walkthrough"
@@ -29,14 +29,14 @@ EdTech product analytics case study focused on retention, progression, completio
 A cohort programme does not fail in one place. Pressure builds through onboarding, pacing, device constraints, assignment deadlines, and middle-stage fatigue. This case joins those signals so the programme team can act earlier and more precisely.
 
 ## Problem
-The core problem is not low content usage by itself. It is the lack of a joined-up view across weekly lesson progress, sprint pressure, assignment behavior, and final learner status. Without that, teams can see that completion is weak without clearly seeing where the breakdown starts.
+The core problem is not low content usage by itself. It is the lack of a joined-up view across weekly lesson progress, sprint pressure, assignment behaviour, and final learner status. Without that, teams can see that completion is weak without clearly seeing where the breakdown starts.
 
 ## Data / Signals
 ### Analyst Objective
 Build a decision-ready learner intelligence layer that helps teams:
 - track retention by cohort,
 - isolate the sprints where dropout clusters hardest,
-- measure how engagement and assignment behavior change completion odds,
+- measure how engagement and assignment behaviour change completion odds,
 - and identify where learner support should intervene first.
 
 ### Stakeholders
@@ -60,7 +60,7 @@ Build a decision-ready learner intelligence layer that helps teams:
 - Learner risk: device pattern, employed-learner pressure, dropout reason mix.
 
 ## Insight
-- The modeled programme covers 538 learners across 10 cohorts, with a 46.7% dropout rate and a 46.1% completion rate.
+- The modelled programme covers 538 learners across 10 cohorts, with a 46.7% dropout rate and a 46.1% completion rate.
 - Sprint 4 carries the heaviest single drop cluster, but one third of all dropouts still happen by week 6.
 - Mobile-only learners complete 16.3 percentage points less often than desktop learners in this run.
 - High lateness lifts dropout by 27.2 percentage points versus low-lateness learners.

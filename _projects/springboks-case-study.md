@@ -2,7 +2,7 @@
 title: "Springboks"
 date: 2026-03-19
 summary: "Public-record sports storytelling piece tracing Springbok performance trends from 2016 to 2025, with estimates clearly flagged where official splits are not published."
-tags: ["Sports Analytics", "Data Visualization", "HTML", "Chart.js"]
+tags: ["Sports Analytics", "Data Visualisation", "HTML", "Chart.js"]
 featured: true
 roleFocus: "Sports Analytics | Performance Trends"
 projectShows:
@@ -57,7 +57,7 @@ Create a 2016-2025 decade view that helps viewers:
 - This project uses public rugby records and reporting rather than a packaged dataset.
 - Official or widely published results are used for team-level performance views.
 - Some player-era allocations, cap distributions, and try-era splits are estimated where official year-by-year splits are not published.
-- Estimated sections are labeled in the live project and should be read as directional context, not official record tables.
+- Estimated sections are labelled in the live project and should be read as directional context, not official record tables.
 
 ## Insight
 - The 2016-2017 period stands apart as the weakest stretch in the window, which gives the later rebuild clearer contrast.

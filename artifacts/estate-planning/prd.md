@@ -8,7 +8,7 @@ caseStudyHref: "/projects/digitising-estate-planning-for-emerging-households"
 ---
 
 ## Product Purpose
-This document captures the main product requirements behind the estate planning concept. It focuses on the user journey, key product behaviors, operating requirements, and product measures that would guide a first working version.
+This document captures the main product requirements behind the estate planning concept. It focuses on the user journey, key product behaviours, operating requirements, and product measures that would guide a first working version.
 
 ## Product Vision
 The product was intended to make estate planning feel more approachable by guiding users through a structured process on a familiar channel. The product did not aim to replace all legal complexity. It aimed to reduce the effort required to start, progress, and complete the core journey.

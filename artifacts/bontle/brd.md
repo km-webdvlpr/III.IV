@@ -64,7 +64,7 @@ The proposed response was to manage service delivery as a state-based operationa
 ### In Scope
 - state-based workflow control
 - queue and handoff visibility
-- KPI definitions for throughput, quality, backlog, utilization, and related performance views
+- KPI definitions for throughput, quality, backlog, utilisation, and related performance views
 - event history and traceability
 - reporting views for operations and leadership
 

@@ -2,7 +2,7 @@
 title: "JHB Municipal Infrastructure Intelligence"
 date: 2026-03-28
 summary: "Municipal analytics case study using synthetic pothole and water leak incidents to demonstrate operational KPI design, SLA monitoring, and ward-level infrastructure reporting."
-tags: ["Infrastructure Analytics", "Civic Data", "Python", "Data Visualization"]
+tags: ["Infrastructure Analytics", "Civic Data", "Python", "Data Visualisation"]
 featured: true
 roleFocus: "Infrastructure Analytics | Civic Data"
 projectShows:
@@ -54,7 +54,7 @@ Design a Python reporting workflow that enables infrastructure teams to:
 - Coverage: incident volume by ward and issue type.
 
 ## Insight
-- The synthetic dataset produces 200,000 incident records across 135 wards and 6 contractors, giving enough scale for KPI demonstration.
+- The synthetic dataset produces 200 000 incident records across 135 wards and 6 contractors, giving enough scale for KPI demonstration.
 - The current implementation supports data generation, cleaning, incident-level feature building, and notebook-based KPI outputs.
 - Generated summary metrics show a 24.0 hour median first response, 3.55 day median repair time, and a 16.4% SLA breach rate.
 - The strongest value of the project is operational KPI design and reporting structure, not advanced hotspot or causal inference.

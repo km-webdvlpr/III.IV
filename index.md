@@ -46,6 +46,7 @@ body_class: page-home
   </div>
 
   <div class="hero-right">
+    <canvas class="hero-orb" data-hero-orb aria-hidden="true"></canvas>
     <div class="hero-terminal reveal visible">
       <div class="hero-terminal__bar">
         <div class="hero-terminal__dot"></div>

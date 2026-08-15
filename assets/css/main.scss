@@ -17,6 +17,7 @@
   --ink-surface: #1a2d1f;
   --ink-card: #111d16;
   --amber: #d8b15c;
+  --dim-ink: var(--green-dim);
   --nav-height: 73px;
   --status-height: 32px;
   --page-width: 1180px;
@@ -39,6 +40,7 @@ body.light {
   --green-bright: #0f4a2e;
   --green-dim: #5a9e7a;
   --amber: #8f6a15;
+  --dim-ink: #38684d;
   --shadow-card: 0 6px 18px rgba(20, 32, 24, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5);
   --shadow-lift: 0 10px 26px rgba(20, 32, 24, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
@@ -360,7 +362,7 @@ iframe {
 
 .version-tag {
   margin-bottom: 2rem;
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.72rem;
   letter-spacing: 0.22em;
 }
@@ -431,11 +433,24 @@ iframe {
 }
 
 .hero-terminal {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: 400px;
   border: 1px solid var(--green-dim);
   background: var(--ink-mid);
   box-shadow: var(--shadow-card);
+}
+
+.hero-orb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(470px, 92%);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 .hero-terminal__bar {
@@ -508,7 +523,7 @@ iframe {
 }
 
 .hero-terminal__status {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.68rem;
 }
 
@@ -711,7 +726,7 @@ iframe {
 }
 
 .project-card__date {
-  color: var(--green-dim);
+  color: var(--dim-ink);
 }
 
 .project-card__title {
@@ -793,14 +808,14 @@ iframe {
 }
 
 .card-num {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 1.45rem;
   line-height: 1;
 }
 
 .card-num-label,
 .feed-section-count {
-  color: var(--green-dim);
+  color: var(--dim-ink);
 }
 
 .compact-grid,
@@ -830,7 +845,7 @@ iframe {
 
 .creative-label {
   margin-bottom: 0.45rem;
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.65rem;
   letter-spacing: 0.18em;
 }
@@ -857,7 +872,7 @@ iframe {
 
 .breadcrumb {
   margin-bottom: 1rem;
-  color: var(--green-dim);
+  color: var(--dim-ink);
   position: relative;
   z-index: 1;
 }
@@ -948,7 +963,7 @@ iframe {
 
 .sidebar-link::before {
   content: '→';
-  color: var(--green-dim);
+  color: var(--dim-ink);
 }
 
 .sidebar-link:hover {
@@ -1032,7 +1047,7 @@ iframe {
 }
 
 .project-row__num {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -1076,7 +1091,7 @@ iframe {
 }
 
 .project-row__group {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.65rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1100,7 +1115,7 @@ iframe {
 }
 
 .project-row__arrow {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.68rem;
   letter-spacing: 0.16em;
   text-align: right;
@@ -1123,7 +1138,7 @@ iframe {
   border-radius: var(--radius);
   background: var(--ink-card);
   box-shadow: var(--shadow-card);
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.68rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1163,7 +1178,7 @@ iframe {
 
 .dossier-date,
 .dossier-id {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.66rem;
   letter-spacing: 0.1em;
 }
@@ -1358,7 +1373,7 @@ iframe {
 }
 
 .project-nav-shell__value {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.65rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1422,7 +1437,7 @@ iframe {
 }
 
 .project-nav-log {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.63rem;
   letter-spacing: 0.14em;
 }
@@ -1475,7 +1490,7 @@ iframe {
 }
 
 .project-nav-progress__label {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.65rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1544,7 +1559,7 @@ iframe {
 
 .report-caption {
   margin: 0.65rem 0 0;
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.69rem;
   letter-spacing: 0.06em;
   line-height: 1.7;
@@ -1672,7 +1687,7 @@ iframe {
 }
 
 .stat-label {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-size: 0.63rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1717,7 +1732,7 @@ iframe {
 .process-cmd,
 .sidebar-meta,
 .log-tag {
-  color: var(--green-dim);
+  color: var(--dim-ink);
 }
 
 .log-role,
@@ -1761,7 +1776,7 @@ iframe {
 }
 
 .process-num {
-  color: var(--green-dim);
+  color: var(--dim-ink);
   font-family: 'Space Mono', monospace;
   font-size: 2.8rem;
   opacity: 0.55;
@@ -1817,6 +1832,15 @@ iframe {
   font-size: 0.66rem;
   letter-spacing: 0.1em;
   z-index: 200;
+}
+
+body.light .status-bar {
+  background: var(--green-bright);
+  color: var(--ink);
+}
+
+body.light .status-bar .pulse {
+  background: var(--ink);
 }
 
 .pulse {

@@ -69,7 +69,7 @@ The system must expose the data needed for:
 - throughput reporting
 - backlog tracking
 - reassignment analysis
-- branch-level utilization views
+- branch-level utilisation views
 - service output and delay impact reporting
 
 Reporting should not depend on manual spreadsheet reconstruction. The system should make workflow data available in a way that supports executive dashboards and downstream BI use.

@@ -78,8 +78,8 @@ Build a concise commerce intelligence pack that helps teams:
 <div class="report-grid">
   <div class="report-card">
     <div class="report-card__label">Journey Conversion</div>
-    <div class="report-card__value">145,609 -> 2,431</div>
-    <p class="report-card__copy">The frozen synthetic run moves from 145,609 sessions to 2,440 purchases, for a 1.68% session-to-purchase rate.</p>
+    <div class="report-card__value">145 609 -> 2 431</div>
+    <p class="report-card__copy">The frozen synthetic run moves from 145 609 sessions to 2 440 purchases, for a 1.68% session-to-purchase rate.</p>
   </div>
   <div class="report-card">
     <div class="report-card__label">Device Gap</div>

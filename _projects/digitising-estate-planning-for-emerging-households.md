@@ -137,7 +137,7 @@ The architecture used a familiar channel, structured data capture, and controlle
   <a href="../../artifacts/estate-planning/trd">Open TRD summary</a>
 </div>
 
-## Appendix: Reconstructed Analyst Artifacts
+## Appendix: Reconstructed Analyst Artefacts
 These are short reconstructed extracts based on the case study work. They are included to show the kind of analyst documentation that would sit behind the project.
 
 ### Business Requirements Summary

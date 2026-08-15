@@ -50,7 +50,7 @@ page_class: page-about
           My work often sits between analytics, product thinking, and commercial analysis. I do my best work when analysis helps a team understand what is happening, why it matters, and what to do next.
         </p>
         <p class="profile-text">
-          This portfolio reflects my growth, range, and the way my thinking has developed across different kinds of work. My career has not followed one simple straight line, and this body of work shows how I learn, adapt, and build toward the kind of analyst I&apos;m becoming.
+          This portfolio reflects my growth, range, and the way my thinking has developed across different kinds of work. My career has not followed one simple straight line, and this body of work shows how I learn, adapt, and build towards the kind of analyst I&apos;m becoming.
         </p>
         <div class="profile-stats">
           <div class="stat-cell">
@@ -92,7 +92,7 @@ page_class: page-about
         <div class="process-cell">
           <div class="process-num">01</div>
           <div class="process-title">Business Question</div>
-          <div class="process-desc">I start with the decision that needs to be made, then work backward to the data and evidence required.</div>
+          <div class="process-desc">I start with the decision that needs to be made, then work backwards to the data and evidence required.</div>
           <div class="process-cmd">define_problem --before --choosing_work</div>
         </div>
         <div class="process-cell">

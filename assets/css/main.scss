@@ -1856,6 +1856,40 @@ iframe {
   display: none !important;
 }
 
+@keyframes filter-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filter-in {
+  animation: filter-in 0.3s ease both;
+}
+
+.theme-sweep {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 36vh;
+  background: linear-gradient(to bottom, transparent, var(--green-bright), transparent);
+  opacity: 0.16;
+  pointer-events: none;
+  z-index: 9998;
+  animation: theme-sweep 0.45s ease-in both;
+}
+
+@keyframes theme-sweep {
+  from { transform: translateY(-36vh); }
+  to { transform: translateY(100vh); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

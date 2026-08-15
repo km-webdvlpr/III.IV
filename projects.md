@@ -196,9 +196,9 @@ body_class: page-projects
 
     <div class="project-index-stats reveal">
       <div class="project-index-stats__cell">Visible index rows <span class="hi" data-project-visible-count>{{ site.projects | size }}</span></div>
-      <div class="project-index-stats__cell">Featured <span class="hi">{{ featured_count }}</span></div>
-      <div class="project-index-stats__cell">Skill-build <span class="hi">{{ skill_build_count }}</span></div>
-      <div class="project-index-stats__cell">Creative <span class="hi">{{ creative_count }}</span></div>
+      <div class="project-index-stats__cell">Featured <span class="hi" data-count-up>{{ featured_count }}</span></div>
+      <div class="project-index-stats__cell">Skill-build <span class="hi" data-count-up>{{ skill_build_count }}</span></div>
+      <div class="project-index-stats__cell">Creative <span class="hi" data-count-up>{{ creative_count }}</span></div>
     </div>
   </main>
 </section>

@@ -54,11 +54,11 @@ page_class: page-about
         </p>
         <div class="profile-stats">
           <div class="stat-cell">
-            <span class="stat-val">8+</span>
+            <span class="stat-val" data-count-up>8+</span>
             <span class="stat-label">Years in business</span>
           </div>
           <div class="stat-cell">
-            <span class="stat-val">{{ site.projects | size }}</span>
+            <span class="stat-val" data-count-up>{{ site.projects | size }}</span>
             <span class="stat-label">Portfolio projects</span>
           </div>
           <div class="stat-cell">

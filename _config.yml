@@ -7,6 +7,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+plugins:
+  - jekyll-sitemap
+
 owner_name: Kabelo Makua
 mark_name: III.IV
 contact_email: kabelomakua@tec4th.co.za
